@@ -1,0 +1,20 @@
+{
+    "name": "mizmoz/filter",
+    "description": "Value filtering",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Chadwick",
+            "email": "chad@mizmoz.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mizmoz\\Filter\\": "src/",
+            "Mizmoz\\Filter\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    }
+}
